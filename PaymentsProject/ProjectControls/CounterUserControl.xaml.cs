@@ -16,13 +16,14 @@ using System.Windows.Shapes;
 namespace PaymentsProject.ProjectControls
 {
     /// <summary>
-    /// Логика взаимодействия для CountUserControls.xaml
+    /// Логика взаимодействия для CounterUserControl.xaml
     /// </summary>
-    public partial class CountUserControls : Page
+    public partial class CounterUserControl : UserControl
     {
-        public CountUserControls()
+        public CounterUserControl()
         {
             InitializeComponent();
+
             this.DataContext = this;
         }
     }

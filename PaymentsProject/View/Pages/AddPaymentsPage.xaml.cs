@@ -24,5 +24,13 @@ namespace PaymentsProject.View.Pages
         {
             InitializeComponent();
         }
+
+        private void bacButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (NavigationService.CanGoBack)
+            {
+                NavigationService.GoBack();
+            }
+        }
     }
 }

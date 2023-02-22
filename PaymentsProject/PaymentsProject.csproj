@@ -89,6 +89,9 @@
     <Compile Include="Model\Users.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
+    <Compile Include="ProjectControls\CounterUserControl.xaml.cs">
+      <DependentUpon>CounterUserControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ProjectControls\CountUserControls.xaml.cs">
       <DependentUpon>CountUserControls.xaml</DependentUpon>
     </Compile>
@@ -113,6 +116,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="ProjectControls\CounterUserControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ProjectControls\CountUserControls.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

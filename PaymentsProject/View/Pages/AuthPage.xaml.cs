@@ -37,8 +37,10 @@ namespace PaymentsProject.View.Pages
         //Проверка корректности пароля
         private void AuthButton_Click(object sender, RoutedEventArgs e)
         {
-            if (UserPasswordBox.Password == db.context.Users.FirstOrDefault(x => x.login == UserComboBox.SelectedValue.ToString()).password)
+           Users activeUser = db.context.Users.FirstOrDefault(x => x.login == UserComboBox.SelectedValue.ToString() && x.password == UserPasswordBox.Password);
+            if (activeUser != null)
             {
+                App.CurrentUser = activeUser;
                 this.NavigationService.Navigate(new MainPage());
             }
             else

@@ -21,11 +21,14 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                 <TextBlock Text="Количество" VerticalAlignment="Center"/>
-                <local1:CountUserControls Margin="20 0 0 0"/>
+                <local1:CounterUserControl Margin="20 0 0 0"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Margin="0 10" HorizontalAlignment="Right">
                 <TextBlock Text="Количество" VerticalAlignment="Center"/>
                 <TextBox Width="120" Margin="20 0 0 0" x:Name="PriseTextBox"/>
+            </StackPanel>
+            <StackPanel>
+                <Button x:Name="bacButton" Click="bacButton_Click" Content="Назад" />
             </StackPanel>
         </StackPanel>
     </Grid>
