@@ -92,9 +92,6 @@
     <Compile Include="ProjectControls\CounterUserControl.xaml.cs">
       <DependentUpon>CounterUserControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ProjectControls\CountUserControls.xaml.cs">
-      <DependentUpon>CountUserControls.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\Pages\AddPaymentsPage.xaml.cs">
       <DependentUpon>AddPaymentsPage.xaml</DependentUpon>
     </Compile>
@@ -117,10 +114,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ProjectControls\CounterUserControl.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ProjectControls\CountUserControls.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
