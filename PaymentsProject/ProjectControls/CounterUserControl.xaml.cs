@@ -26,5 +26,15 @@ namespace PaymentsProject.ProjectControls
 
             this.DataContext = this;
         }
+
+        private void CountUserControlBtnUp_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CountUserControlBtnDown_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

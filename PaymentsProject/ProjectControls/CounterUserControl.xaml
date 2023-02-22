@@ -19,8 +19,8 @@
             <TextBox x:Name="CountUserControlTextBox"  Width="100" Height="24"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Grid.RowSpan="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
-            <Button Content="+" Padding="6 0" Height="24" x:Name="CountUserControlBtnUp"/>
-            <Button Content="-" Padding="6 0" Height="24" x:Name="CountUserControlBtnDown"/>
+            <Button Content="+" Click="CountUserControlBtnUp_Click" Padding="6 0" Height="24" x:Name="CountUserControlBtnUp"/>
+            <Button Content="-" Click="CountUserControlBtnDown_Click" Padding="6 0" Height="24" x:Name="CountUserControlBtnDown"/>
         </StackPanel>
             
     </Grid>
